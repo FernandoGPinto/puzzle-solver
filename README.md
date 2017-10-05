@@ -2,8 +2,8 @@
 
 The puzzle solver was designed to solve sudoku style square matrices with three constraints:
 
-1- There must be a digit in every cell between zero and the size of the puzzle (inclusive)
-2- Digits cannot be repeated in each row
+1- There must be a digit in every cell between zero and the size of the puzzle (inclusive)<br>
+2- Digits cannot be repeated in each row<br>
 3- Digits cannot be repeated in each column
 
 The size of the puzzle corresponds to the number of cells in each side (ie. number of rows or number of columns)

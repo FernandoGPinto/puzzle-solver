@@ -1,0 +1,44 @@
+root {
+    display: block;
+}
+
+.root {
+-fx-background-image: url("../resources/background.jpg");
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.matrix {
+    -fx-background-color: lightgray;
+    -fx-background-radius: 5 5 5 5;
+    -fx-background-insets: 1 1 1 1 ;
+    -fx-vgap: 1;
+    -fx-hgap: 1;
+    -fx-padding: 1;
+}
+
+#row, #col, #dig {
+    -fx-max-width: 74px;
+    -fx-text-align: center;
+}
+
+#puzzle-solver {
+   -fx-font-size: 39px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-min-width: 74px;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}

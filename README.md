@@ -19,3 +19,6 @@ The algorithm uses its own version of dancing links to help solve a square puzzl
 Each cell takes one digit, the number of digits available is the same as the number of rows or columns and digits must not be repeated in each row and column. Knowing this it was possible to create a bitfunction for each constraint, which places each node in the right place. The algorithm then proceeds to identify each possible solution and eliminate conflicting alternatives by removing the links, also known as covering.
 
 JavaFX was used to create a simple and clear GUI.
+
+
+https://user-images.githubusercontent.com/32436981/217868050-b2695814-e744-4390-b41f-e1967a3be2f4.mp4
